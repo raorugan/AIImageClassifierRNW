@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+*.log
+*.binlog
+*.wrn
+
+# Windows build artifacts
+windows/x64/
+windows/ARM64/
+windows/Debug/
+windows/Release/
+windows/**/Debug/
+windows/**/Release/
+windows/**/x64/
+windows/**/ARM64/
+windows/**/*.user
+windows/**/packages/
+
+# Metro
+.metro-health-check*
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
